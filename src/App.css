@@ -1,0 +1,93 @@
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  background-image: url('./iss2.jpg');
+
+}
+
+.apodStyle {
+  display: flex;
+  margin-top: 1%;
+}
+
+.apodHeader {
+  margin-top: 2%;
+  margin-left: 0.8%;
+}
+
+h1 {
+  margin-left: 0.8%;
+}
+
+.exp {
+  padding-right: 60px;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  margin-right: 19%;
+}
+
+.image {
+  width: 800px;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  background-color: grey;
+  overflow: hidden;
+  width: 800px;
+  height: 0;
+  transition: .5s ease;
+  opacity: .7;
+  border-radius: 2%;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  border-radius: 2%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
