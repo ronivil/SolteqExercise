@@ -34,7 +34,6 @@ const App = () => {
                <img className = 'image' src={apod.url} alt="Loading" width="800" height="auto" />
                <div className="overlay">
                 <div className="text">Hire me!</div>
-                <p className="text2">Phone number: 0504683291</p>
                 <p className="text3">Email: roni.vilenius@hotmail.com</p>
               </div>
             </div>
